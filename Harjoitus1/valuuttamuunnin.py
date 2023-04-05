@@ -1,0 +1,7 @@
+print("*************************")
+print("*    Valuuttamuunnin    *")
+print("*************************")
+kurssi = float(input("Anna dollarin kurssi euroina: "))
+maara = float(input("Anna rahan määrä euroina: "))
+print(f"Rahan arvo dollareina: {maara / kurssi}")
+print("*************************")
