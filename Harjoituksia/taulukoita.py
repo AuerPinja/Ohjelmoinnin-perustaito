@@ -23,4 +23,4 @@ while x < len(desimaalit):
 
 
 for a in kaupungit:
-    print(kaupungit[a])
+    print(a, end = ", ")
