@@ -2,7 +2,7 @@ def kysyEmail():
     while True:
         email = input("Anna sähköposti: ")
         lenght = len(email)
-        if email.find("@") and lenght > 6:
+        if email.find("@") > 0 and lenght > 6:
             print("True")
             break
         else:
