@@ -1,10 +1,12 @@
 def kysyEmail():
-    email = input("Anna sähköposti: ")
-    at = email.find("@")
-    if at == "@" and email > len(6):
-        print("True")
-    else:
-        print("False")
+    while True:
+        email = input("Anna sähköposti: ")
+        lenght = len(email)
+        if email.find("@") and lenght > 6:
+            print("True")
+            break
+        else:
+            print("False")
 
 kysyEmail()
     
